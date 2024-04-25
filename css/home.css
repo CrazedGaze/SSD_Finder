@@ -1,0 +1,174 @@
+.content {
+  padding: 20px;
+  height: 2000px;
+}
+
+.container {
+  width: 100%; /* Set container width to 100% */
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 0px;
+  color: #333;
+}
+/*
+h6 {
+  margin-top: 0px;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #009e08;
+}*/
+
+form {
+  margin-bottom: 20px;
+}
+
+.form-row {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: calc(100% - 22px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+th:hover {
+  background-color: #0056b3;
+}
+
+.deleteBtn {
+  background-color: rgb(235, 37, 37);
+}
+
+.deleteBtn:hover {
+  transition: 500ms;
+  background-color: rgb(195, 17, 17);
+}
+
+.search-bar-process {
+  width: 170px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.pending {
+background-color: rgb(255, 213, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: rgb(0, 57, 143);
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 60px;
+  margin-right: 10px;
+}
+
+.logo-title {
+  color: #fff;
+  font-size: 25px;
+  margin: 0;
+}
+.sdd-logo {
+  width: 60px;
+  margin-right: 10px;
+  border-radius: 50px;
+}
+
+.alogo {
+  text-decoration: none;
+}
+
+
+
+.help-icon {
+  text-decoration: none;
+  color: white;
+  transition: 400ms;
+  cursor: pointer;
+}
+.help-icon:hover {
+  color: rgb(255, 238, 0);
+  transition: 600ms;
+  text-decoration: underline;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-HBN5qGiRXVmV4KDO8jsI2t+xzf8+gN3lc9uyLkdjAD1MSsRjVvBnRnG9eAiGJIfk" crossorigin="anonymous">
+
+  </head>
+    <body>
+      
+      <div class="navbar">
+        <div class="logo">
+          <a class="alogo" onclick="window.location.reload" href="">
+            <img src="img/Official UMak Logo (1).png" alt="Logo">
+            <img class="sdd-logo" src="img/S.D.D LOGO.png" alt="Logo">
+            <img src="img/Higher-School-ng-Umak-logo-1.webp" alt="Logo">
+          </a>
+          <a class="alogo" onclick="window.location.reload" href="">
+            <h1 class="logo-title" style="margin-right: 1060px;">S.D.D <span style="font-weight: 400; font-size: 18px;">Finder</span></h1>
+          </a>
+          <a class="help-icon" onclick="help()">Need Help?</a>
+          
+          
+        </div>
+      </div>
+      
+      <div class="content">
+        <div class="container">
+          <h1>S.D.D Finder</h1>
+          <!--<h6>Need help?</h6>-->
+          <form id="registrationForm">
+            <div class="form-row">
+              <label for="studentID">Student ID:</label>
+              <input type="text" id="studentID" name="studentID" placeholder="Enter student ID">
+            </div>
+            <div class="form-row">
+              <label for="fullName">Full Name:</label>
+              <input type="text" id="fullName" name="fullName" placeholder="Enter full name">
+            </div>
+            <div class="form-row">
+              <label for="schoolYear">School Year:</label>
+              <input type="text" id="schoolYear" name="schoolYear" placeholder="Enter school year">
+            </div>
+            <div class="form-row">
+              <label for="learnerRefNumber">Learner Reference Number:</label>
+              <input type="text" id="learnerRefNumber" name="learnerRefNumber" placeholder="Enter learner reference number">
+            </div>  
+            <button type="submit">Submit</button>
+          </form>
+          <input class="search-bar-process" type="text" id="searchInput" placeholder="Search">
+          <table id="userTable">
+            <thead>
+              <tr>
+                <th onclick="sortTable(0)">Student I.D
+                <th onclick="sortTable(1)">Name</th>
+                <th onclick="sortTable(2)">School year</th>
+                <th onclick="sortTable(3)">Learner Reference Number</th>
+                <th onclick="sortTable(6)">Remarks</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      
+      <script src="js/table-process.js"></script>
+
+    </body>
+  </html>
